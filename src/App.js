@@ -9,13 +9,14 @@ import mempelai from "../src/page/mempelai"
 import penutup from "../src/page/penutup"
 import Oops from "../src/page/notfound"
 import tes from "../src/page/tes"
+import Tes_Homepage from "../src/page/tesHomepage"
 
 class App extends Component {
   state = {}
   render() {
     return (<div>
       <Switch>
-        <Route path="/" component={home} exact />
+        <Route path="/" component={Tes_Homepage} exact />
         <Route path="/sampul" component={sampul} />
         <Route path="/agenda" component={agenda} />
         <Route path="/galeri" component={galeri} />
