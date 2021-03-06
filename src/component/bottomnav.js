@@ -35,8 +35,8 @@ export default function LabelBottomNavigation() {
     };
 
     return (
-        <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-            <BottomNavigationAction label="sampul" value="sampul" icon={<AssignmentIndIcon />} onClick={() => history.push("/sampul")} />
+        <BottomNavigation value={value} onChange={handleChange} className={classes.root }showLabels>
+            <BottomNavigationAction label="sampul" value="sampul" icon={<AssignmentIndIcon />} onClick={() => history.push("/sampul?edgar")} />
             <BottomNavigationAction label="agenda" value="agenda" icon={<MenuBookIcon />} onClick={() => history.push("/agenda")} />
             <BottomNavigationAction label="galeri" value="galeri" icon={<PhotoLibraryIcon />} onClick={() => history.push("/galeri")} />
             <BottomNavigationAction label="live" value="live" icon={<LiveTvIcon />} onClick={() => history.push("/live")} />

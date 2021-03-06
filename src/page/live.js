@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MyBottomNavigation from '../component/bottomnav';
+import { Button } from 'reactstrap';
 
 class Live extends Component {
     state = {}
@@ -9,7 +10,7 @@ class Live extends Component {
                 textAlign: "center",
                 padding: "50px",
             }}>
-                link disini
+                <Button color="danger">link yutub disini</Button>
             </div>
             <MyBottomNavigation />
         </div>);
