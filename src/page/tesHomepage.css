@@ -253,7 +253,7 @@
 
 }
 
-.tesHomepage .x01a6d80b {
+.tesHomepage .xd429f8e6 {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(1.00deg);
@@ -362,6 +362,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -393,10 +394,10 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1938.13px;
-    height: 2392.72px;
-    left: -18.13px;
-    top: -910.72px;
+      width: 1902.00px;
+    height: 2348.00px;
+    left: 0.00px;
+    top: -866.00px;
 
 }
 
