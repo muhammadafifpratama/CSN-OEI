@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from "react-router-dom"
 import sampul from "../src/page/sampul"
 import home from "../src/page/home"
-import agenda from "../src/page/agenda"
+import agenda from "../src/page/page1/page1"
 import galeri from "../src/page/galeri"
 import live from "../src/page/live"
 import mempelai from "../src/page/mempelai"
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (<div>
       <Switch>
-        <Route path="/" component={Tes_Homepage} exact />
+        <Route path="/" component={home} exact />
         <Route path="/sampul" component={sampul} />
         <Route path="/agenda" component={agenda} />
         <Route path="/galeri" component={galeri} />

@@ -35,12 +35,10 @@ export default function LabelBottomNavigation() {
     };
 
     return (
-        <BottomNavigation value={value} onChange={handleChange} className={classes.root }showLabels>
-            <BottomNavigationAction label="sampul" value="sampul" icon={<AssignmentIndIcon />} onClick={() => history.push("/sampul?edgar")} />
-            <BottomNavigationAction label="agenda" value="agenda" icon={<MenuBookIcon />} onClick={() => history.push("/agenda")} />
-            <BottomNavigationAction label="galeri" value="galeri" icon={<PhotoLibraryIcon />} onClick={() => history.push("/galeri")} />
-            <BottomNavigationAction label="live" value="live" icon={<LiveTvIcon />} onClick={() => history.push("/live")} />
+        <BottomNavigation value={value} onChange={handleChange} className={classes.root} showLabels>
+            <BottomNavigationAction label="sampul" value="sampul" icon={<AssignmentIndIcon />} onClick={() => history.push("/")} />
             <BottomNavigationAction label="mempelai" value="mempelai" icon={<SupervisorAccountIcon />} onClick={() => history.push("/mempelai")} />
+            <BottomNavigationAction label="live" value="live" icon={<LiveTvIcon />} onClick={() => history.push("/live")} />
             <BottomNavigationAction label="penutup" value="penutup" icon={<LoupeIcon />} onClick={() => history.push("/penutup")} />
         </BottomNavigation>
     );

@@ -14,25 +14,22 @@ class Mempelai extends Component {
                 textAlign: "center",
                 padding: "50px",
             }}>
-                Assalamu'alaikum warahmatullahi wabarakatuh<br />
-Dengan memohon rahmat dan ridho Allah SWT,<br />
-Mohon do'a restu Bapak/Ibu/Saudara/i dalam rangka melangsungkan pernikahan putra-putri kami<br />
-                <br />
-                <center>
-
-                    <Foto />
-                </center>
-                dr. Denisa Dwi Rahmayani
-
-Putri Kedua
-Bapak dr. Moch. Wachid, Sp. T.H.T.-K.L.
-Ibu dra. Estri Andayani <br /><br /><br />
-dan<br /><br /><br />
-dr. Denisa Dwi Rahmayani
-
-Putri Kedua
-Bapak dr. Moch. Wachid, Sp. T.H.T.-K.L.
-Ibu dra. Estri Andayani
+                بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ<br /> <br />
+                Dengan memohon ridho Allah SWT, kami mengundang
+Bapak/Ibu untuk menyelenggarakan akad dan resepsi pernikahan
+<br /><br />
+Lathfia Ameera Nasri, M.iKom<br />
+&amp;<br />
+Edgar Rahmadian Harris, S.ST<br /><br />
+Yang inshaa Allah akan dilaksanakan pada :<br />
+Minggu, 27 Juni 2021<br /><br />
+Akad (keluarga)
+09.00 - 10.30
+<br /><br />
+Resepsi
+10.30 - 13.00
+<br /><br />
+Bertempat di Hotel Gran Mahakam, Jakarta Selatan
             </div>
             <MyBottomNavigation />
         </div>);
