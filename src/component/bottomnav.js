@@ -4,8 +4,6 @@ import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import { useHistory } from "react-router-dom";
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
-import MenuBookIcon from '@material-ui/icons/MenuBook';
-import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import LoupeIcon from '@material-ui/icons/Loupe';

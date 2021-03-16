@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import foto from "./foto.png"
 import Countdown from 'react-countdown';
 import "./home.css"
 import MyBottomNavigation from '../component/bottomnav';

@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import MyBottomNavigation from '../component/bottomnav';
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
-import Foto from "../component/foto"
-import Typography from '@material-ui/core/Typography';
-import CardContent from '@material-ui/core/CardContent';
+
 
 class Mempelai extends Component {
     state = {}
     render() {
-        return (<div>
+        return (<div style={{ backgroundcolor: rgba(255, 255, 255, 0) }}>
             <div style={{
                 textAlign: "center",
                 padding: "50px",
@@ -30,6 +26,7 @@ Resepsi
 10.30 - 13.00
 <br /><br />
 Bertempat di Hotel Gran Mahakam, Jakarta Selatan
+<br /><br />
             </div>
             <MyBottomNavigation />
         </div>);
