@@ -5,7 +5,7 @@ import MyBottomNavigation from '../component/bottomnav';
 class Mempelai extends Component {
     state = {}
     render() {
-        return (<div style={{ backgroundcolor: rgba(255, 255, 255, 0) }}>
+        return (<div style={{ backgroundcolor: "rgba(255, 255, 255, 0)" }}>
             <div style={{
                 textAlign: "center",
                 padding: "50px",
